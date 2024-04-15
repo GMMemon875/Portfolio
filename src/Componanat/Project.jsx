@@ -34,8 +34,10 @@ const Project = () => {
             </h1>
 
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify.
+              Lets get in touch! If you have any questions or need to contact us
+              for a project, please use the form below. We will respond as soon
+              as If you have any questions or need to contact us for any reason,
+              please use the form below. We will respond as soon as possible!
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">

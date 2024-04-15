@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import wallpapper from "../Image/new.jpeg";
 import React from "react";
 
@@ -6,7 +6,7 @@ const Experties = () => {
   return (
     <>
       <div className="mt-2">
-        <h1 className="text-center text-4xl font-bold underline pb-16">
+        <h1 className="text-center text-4xl font-bold underline pb-16 italic">
           {" "}
           My Experties
         </h1>
@@ -22,7 +22,7 @@ const Experties = () => {
         <div className="flex py-10 items-center" id="/Experties">
           <div className="flex justify-center">
             <div className=" text-slate-100 w-2/3 text-center">
-              <h1 className="text-3xl font-semibold text-white">
+              <h1 className="text-3xl font-semibold text-white italic">
                 I love These Technologies{" "}
               </h1>
               <p className="mt-4">

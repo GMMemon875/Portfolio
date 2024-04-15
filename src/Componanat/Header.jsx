@@ -26,9 +26,9 @@ const Header = () => {
   });
   return (
     <>
-      <div className="h-20 border main flex justify-between items-center px-16 bg-slate-200">
+      <div className="h-20 border main flex justify-between items-center px-16 bg-slate-200 ">
         <div>
-          <h1 className="text-2xl font-bold text-orange-500">{islogo}</h1>
+          <h1 className="text-3xl font-bold text-orange-500">{islogo}</h1>
         </div>
 
         <div className="space-x-6 ">
@@ -70,7 +70,7 @@ const Header = () => {
           <Link
             to="https://www.google.com/"
             target="blank"
-            className="px-4 py-2 bg-orange-500 shadow rounded-full text-1xl text-decoration-none text-white"
+            className="px-4 py-2 bg-orange-500 shadow rounded-full text-3ml text-decoration-none text-white"
           >
             {hireMe.title}
           </Link>

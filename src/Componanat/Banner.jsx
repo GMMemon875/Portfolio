@@ -32,22 +32,23 @@ const Banner = () => {
         backgroundImage: `url(${wallpapper})`,
         backgroundSize: "cover",
       }}
-      className="main-Cantanier flex items-center"
+      className="main-Cantanier flex items-center "
     >
       <div className=" w-full flex items-center justify-center ">
-        <div className="w-2/3 text-white">
-          <h3 className="text-3xl font-semibold"> Hi, I am </h3>
-          <h1 className="text-5xl font-bold"> Mustafa Memon</h1>
+        <div className="w-2/3 text-white ">
+          <h3 className="text-2xl font-semibold italic "> Hi, I am </h3>
+          <h1 className="text-2xl font-bold italic"> Mustafa Memon</h1>
           <h2 className="text-2xl font-bold">
             {" "}
             I am A <span ref={el}></span>
           </h2>
           <p>
             I am a fronted devloper from sindh Pakistan, And i am a fresher
-            Experience
+            Experience in React Js and Next JS. Feel free to explore my projects
+            or contact me for any collaboration!
           </p>
 
-          <div className="space-x-5 ">
+          <div className="space-x-5">
             <span className="hover:bg-orange-600 	  bg-gray-950 border cursor-pointer px-3 py-2 rounded-full">
               <Link
                 to="https://www.facebook.com/profile.php?id=100085835297515"
@@ -84,7 +85,7 @@ const Banner = () => {
           <br />
 
           <a
-            className="px-4 py-2 bg-orange-500 shadow rounded-full text-1xl text-decoration-none text-white  "
+            className="px-4 py-2 bg-orange-500 shadow rounded-full text-3ml text-decoration-none text-white  "
             href="#/Contact"
           >
             {" "}
@@ -93,7 +94,7 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className=" w-full flex justify-center mt-14">
+      <div className=" w-full  flex justify-center mt-14 ">
         <img
           className="rounded-lg shadow-3xl blue-500/500 size-px-96 h-96 w-fit my-2"
           src={BannerIamge}
