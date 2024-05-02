@@ -21,7 +21,7 @@ const About = () => {
   return (
     <>
       <div className="bg-slate-200 py-10 " id="/About">
-        <h1 className="text-center text-4xl font-bold underline pb-16 mt-1 italic">
+        <h1 className="text-center text-4xl font-bold  underline pb-16 mt-1 italic">
           {" "}
           About Me
         </h1>

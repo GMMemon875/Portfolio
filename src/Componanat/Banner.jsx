@@ -32,11 +32,11 @@ const Banner = () => {
         backgroundImage: `url(${wallpapper})`,
         backgroundSize: "cover",
       }}
-      className="main-Cantanier flex items-center "
+      className="main-Cantanier flex items-center"
     >
-      <div className=" w-full flex items-center justify-center ">
-        <div className="w-2/3 text-white ">
-          <h3 className="text-2xl font-semibold italic "> Hi, I am </h3>
+      <div className=" w-full flex items-center justify-center md:max-lg:flex ">
+        <div className="w-2/3 text-white  ">
+          <h3 className="text-3xl font-semibold italic    "> Hi, I am </h3>
           <h1 className="text-2xl font-bold italic"> Mustafa Memon</h1>
           <h2 className="text-2xl font-bold">
             {" "}

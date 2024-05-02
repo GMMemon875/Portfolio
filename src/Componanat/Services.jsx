@@ -2,36 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Services = () => {
-  const [data, setdata] = useState([
-    {
-      title1: `Web DeVlopement`,
-      description1: ``,
-      actionButton1: {
-        title: "",
-        links: "",
-      },
-    },
-
-    // {
-
-    //     title2: "Web Design",
-    //     description2:``,
-    //     actionButton2: {
-    //         title:'',
-    //         links: ''
-    //     }
-    // },
-
-    // {
-
-    //     title3: "Web Design",
-    //     description3:``,
-    //     actionButton3: {
-    //         title:'',
-    //         links: ''
-    //     }
-    // }
-  ]);
   return (
     <>
       <div className=" main cantainar py-14" id="/Service">
