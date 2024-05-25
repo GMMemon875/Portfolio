@@ -32,11 +32,14 @@ const Banner = () => {
         backgroundImage: `url(${wallpapper})`,
         backgroundSize: "cover",
       }}
-      className="main-Cantanier flex items-center"
+      className="main-Cantanier flex items-center "
     >
-      <div className=" w-full flex items-center justify-center md:max-lg:flex ">
+      <div
+        className=" w-full flex items-center justify-center md:max-lg:flex "
+        id="Banner"
+      >
         <div className="w-2/3 text-white  ">
-          <h3 className="text-3xl font-semibold italic    "> Hi, I am </h3>
+          <h3 className="text-3xl font-semibold italic "> Hi, I am </h3>
           <h1 className="text-2xl font-bold italic"> Mustafa Memon</h1>
           <h2 className="text-2xl font-bold">
             {" "}
@@ -49,7 +52,7 @@ const Banner = () => {
           </p>
 
           <div className="space-x-5">
-            <span className="hover:bg-orange-600 	  bg-gray-950 border cursor-pointer px-3 py-2 rounded-full">
+            <span className="hover:bg-orange-600 bg-gray-950 border cursor-pointer px-3 py-2 rounded-full">
               <Link
                 to="https://www.facebook.com/profile.php?id=100085835297515"
                 target="blank"
@@ -96,7 +99,7 @@ const Banner = () => {
 
       <div className=" w-full  flex justify-center mt-14 ">
         <img
-          className="rounded-lg shadow-3xl blue-500/500 size-px-96 h-96 w-fit my-2"
+          className="rounded-lg size-px-96 h-96 w-fit my-1 mb-4 shadow-2xl border-4 border-orange-500 "
           src={BannerIamge}
           alt="Picture"
         />

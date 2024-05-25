@@ -7,6 +7,7 @@ import Services from "./Componanat/Services";
 import Experties from "./Componanat/Experties";
 import Footar from "./Componanat/Footar";
 import Project from "./Componanat/Project";
+import Skill from "./Componanat/Skill";
 // import Conatct from "./Componanat/Conatct";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <About />
       <Services />
       {/* <Conatct /> */}
+      <Skill />
       <Experties />
       <Project />
       <Footar />

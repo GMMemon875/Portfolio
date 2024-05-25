@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HTML",
+    "ImgeSrc": "./images/HTML5_Badge.svg.png"
+  },
+  {
+    "title": "CSS",
+    "ImgeSrc": "./images/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "ImgeSrc": "./images/javascript_logo.png"
+  },
+  {
+    "title": "React.js",
+    "ImgeSrc": "./images/react_logo-512.webp"
+  },
+  {
+    "title": "Botsctrip",
+    "ImgeSrc": "./images/Botstrip.png"
+  },
+  {
+    "title": "Node.js",
+    "ImgeSrc": "./images/Node.js.png"
+  },
+  {
+    "title": "MongoDb",
+    "ImgeSrc": "./images/mongoDb.png"
+  },
+  {
+    "title": "PHP",
+    "ImgeSrc": "./images/PHP-logo.svg.png"
+  },
+  {
+    "title": "Python",
+    "ImgeSrc": "./images/python.png"
+  }
+]

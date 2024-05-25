@@ -10,7 +10,7 @@ const Services = () => {
           Services
         </h1>
         <div className=" space-x-5 px-10 flex mt-12">
-          <div className="cursor-pointer shadow-lg bg-slate-300 p-4 text-center  rounded-xl ">
+          <div className="cursor-pointer shadow-lg border-3 border-orange-500 bg-slate-300 p-4 text-center  rounded-xl ">
             <i className="text-4xl fa-solid fa-code"></i>
             <h1 className="text-2xl">Web DeVlopement</h1>
             <p>
@@ -29,7 +29,7 @@ const Services = () => {
               </button>
             </Link>
           </div>
-          <div className="cursor-pointer shadow-lg  bg-slate-300 p-4 text-center   rounded-xl  ">
+          <div className="cursor-pointer shadow-lg border-3 border-orange-500  bg-slate-300 p-4 text-center   rounded-xl  ">
             <i className=" text-4xl fa-brands fa-staylinked"> </i>
             <h1 className="text-2xl">UX/UI Developer Designer</h1>
             <p>
@@ -45,7 +45,7 @@ const Services = () => {
               </button>
             </Link>
           </div>
-          <div className="cursor-pointer shadow-lg  bg-slate-300 p-4 text-center  rounded-xl ">
+          <div className="cursor-pointer shadow-lg border-3 border-orange-500 bg-slate-300 p-4 text-center  rounded-xl ">
             <i className=" text-4xl fa-brands fa-react"></i>
             <h1 className="text-2xl">Reactjs Development</h1>
             <p>
