@@ -5,9 +5,9 @@ import Banner from "./Componanat/Banner";
 import About from "./Componanat/About";
 import Services from "./Componanat/Services";
 import Experties from "./Componanat/Experties";
-import Footar from "./Componanat/Footar";
 import Project from "./Componanat/Project";
 import Skill from "./Componanat/Skill";
+import Project1 from "./Componanat/Project1";
 // import Conatct from "./Componanat/Conatct";
 
 const App = () => {
@@ -19,9 +19,9 @@ const App = () => {
       <Services />
       {/* <Conatct /> */}
       <Skill />
+      <Project1 />
       <Experties />
       <Project />
-      <Footar />
     </>
   );
 };

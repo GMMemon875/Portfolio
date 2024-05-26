@@ -4,22 +4,22 @@ import Skils from "./Data/Skills.json";
 const Skill = () => {
   return (
     <>
-      <div>
+      <div className=" ">
         <h1 className="text-center text-4xl font-bold underline italic">
-          Skils
+          Skills
         </h1>
       </div>
 
-      <div className="flex flex-wrap justify-center m-auto">
+      <div className="flex flex-wrap justify-center m-auto bg-slate-300">
         {Skils.map((data) => {
           return (
             <>
               <div
-                className="item w-[calc(33.50%)] m-14 bg-black text-center border-5 border-yellow-400 "
+                className=" item w-[calc(33.50%)] m-14 bg-black text-center border-5 border-yellow-400 shadow-[10px_10px_15px_15px_rgba(101,175,10,0.5)]"
                 key={data.id}
               >
                 <img
-                  className=" w-44 justify-center items-center p-6 m-auto"
+                  className=" w-28 justify-center items-center p-6 m-auto"
                   src={data.ImgeSrc}
                   alt=""
                 />

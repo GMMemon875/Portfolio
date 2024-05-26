@@ -29,7 +29,7 @@ const About = () => {
         <div className=" flex">
           <div className="w-full flex justify-center">
             <img
-              className=" rounded-full shadow-2xl border-4 border-orange-500  blue-500/500 size-px-96 h-96"
+              className=" rounded-full shadow-2xl border-4 border-orange-500 animate-identifier blue-500/500 size-px-96 h-96"
               src={data.image}
               alt=""
             />

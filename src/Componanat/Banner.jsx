@@ -99,7 +99,7 @@ const Banner = () => {
 
       <div className=" w-full  flex justify-center mt-14 ">
         <img
-          className="rounded-lg size-px-96 h-96 w-fit my-1 mb-4 shadow-2xl border-4 border-orange-500 "
+          className="rounded-lg size-px-96 h-96 w-fit my-1 mb-4 shadow-2xl border-4 animate-identifier border-orange-500 "
           src={BannerIamge}
           alt="Picture"
         />
