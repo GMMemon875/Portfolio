@@ -4,35 +4,44 @@ import Project from "./Data/Project.json";
 const Project1 = () => {
   return (
     <>
-      <div className=" ">
-        <h1 className="text-center text-4xl font-bold underline italic">
+      <div className=" " id="/Project">
+        <h1 className="text-center text-4xl font-bold underline italic mt-14 mb-14">
           PROJECT
         </h1>
       </div>
-      {Project.map((data) => {
-        return (
-          <>
-            <div className=" p-4 my-4" key={data.id}>
-              <div
-                className="card bg-black text-white"
-                style={{ width: "18rem" }}
-              >
-                <img src={data.imagesrc} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">{data.title}</h5>
-                  <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" className="btn btn-primary">
-                    Go somewhere
-                  </a>
+      <div className="flex flex-wrap text-center justify-center items-center ml-18">
+        {Project.map((data) => {
+          return (
+            <>
+              <div className="my-8 w-[calc(25.33%)] " key={data.id}>
+                <div
+                  className="card border-1 rounded-md border-black shadow-[10px_10px_15px_15px_rgba(101,175,10,0.5)]"
+                  style={{ width: "23rem", height: "60vh" }}
+                >
+                  <div className=" p-5 bg-slate-300 ">
+                    <img
+                      className=" w-80 border-3 border-orange-500"
+                      src={data.imagesrc}
+                      alt="..."
+                    />
+                  </div>
+
+                  <div className="card-body bg-slate-300">
+                    <h5 className="card-title ">{data.title}</h5>
+                    <p className="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" className="btn btn-primary">
+                      Go somewhere
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </>
-        );
-      })}
+            </>
+          );
+        })}
+      </div>
     </>
   );
 };

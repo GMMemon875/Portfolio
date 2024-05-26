@@ -13,6 +13,8 @@ const Header = () => {
 
     { title: " Service", link: "/Service", id: 4 },
 
+    { title: "Skills", link: "/Skill", id: 6 },
+
     { title: " Experties", link: "/Experties", id: 3 },
 
     { title: "Project", link: "/Project", id: 5 },

@@ -4,8 +4,8 @@ import Skils from "./Data/Skills.json";
 const Skill = () => {
   return (
     <>
-      <div className=" ">
-        <h1 className="text-center text-4xl font-bold underline italic">
+      <div className=" " id="/Skill">
+        <h1 className="text-center text-4xl font-bold underline italic mb-14">
           Skills
         </h1>
       </div>
