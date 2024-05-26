@@ -28,7 +28,11 @@ const Header = () => {
   });
   return (
     <>
-      <div className="h-20 border main flex justify-between items-center px-16 bg-slate-200 ">
+      <div
+        className="h-20 border main flex justify-between items-center px-16 bg-slate-200"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
         <div>
           <h1 className="text-3xl font-bold text-orange-500 ">{islogo}</h1>
         </div>
@@ -42,7 +46,7 @@ const Header = () => {
                 <a
                   key={manu.id}
                   href={`#${manu.link}`}
-                  className="text-teal-600 font-bold hover:text-orange-600 text-decoration-none underline-offset-auto"
+                  className="text-teal-600 text-sm font-bold hover:text-orange-600 text-decoration-none underline-offset-auto"
                 >
                   {" "}
                   {manu.title}
@@ -51,7 +55,7 @@ const Header = () => {
               <Link
                 to="https://github.com/GMMemon875"
                 target="blank"
-                className="text-teal-600 font-bold hover:text-orange-600 text-decoration-none underline-offset-auto"
+                className="text-teal-600 font-bold text-sm  hover:text-orange-600 text-decoration-none underline-offset-auto"
               >
                 {" "}
                 Github
@@ -64,7 +68,7 @@ const Header = () => {
           <Link
             to="https://drive.google.com/file/d/1GeXFJs4mOsfQ0qCjO4_YKBT4ORwyeUCI/view?usp=drive_link"
             target="blank"
-            className="px-4 py-2 bg-orange-500 shadow rounded-full text-3ml text-decoration-none text-white"
+            className="px-4 py-2 bg-orange-500 text-sm  shadow rounded-full text-3ml text-decoration-none text-white"
           >
             {hireMe.title}
           </Link>

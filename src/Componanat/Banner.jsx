@@ -37,21 +37,23 @@ const Banner = () => {
       <div
         className=" w-full flex items-center justify-center md:max-lg:flex "
         id="Banner"
+        data-aos="fade-right"
+        data-aos-duration="1000"
       >
         <div className="w-2/3 text-white  ">
           <h3 className="text-3xl font-semibold italic "> Hi, I am </h3>
           <h1 className="text-2xl font-bold italic"> Mustafa Memon</h1>
-          <h2 className="text-2xl font-bold">
+          <h2 className=" font-bold  text-sm">
             {" "}
             I am A <span ref={el}></span>
           </h2>
-          <p>
+          <p className=" text-sm">
             I am a fronted devloper from sindh Pakistan, And i am a fresher
             Experience in React Js and Next JS. Feel free to explore my projects
             or contact me for any collaboration!
           </p>
 
-          <div className="space-x-5">
+          <div className="space-x-5  text-sm">
             <span className="hover:bg-orange-600 bg-gray-950 border cursor-pointer px-3 py-2 rounded-full">
               <Link
                 to="https://www.facebook.com/profile.php?id=100085835297515"
@@ -88,7 +90,7 @@ const Banner = () => {
           <br />
 
           <a
-            className="px-4 py-2 bg-orange-500 shadow rounded-full text-3ml text-decoration-none text-white  "
+            className="px-4 py-2 bg-orange-500 shadow rounded-full text-3ml text-decoration-none text-white text-sm"
             href="#/Contact"
           >
             {" "}
@@ -97,9 +99,13 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className=" w-full  flex justify-center mt-14 ">
+      <div
+        className=" w-full  flex justify-center mt-14 "
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
         <img
-          className="rounded-lg size-px-96 h-96 w-fit my-1 mb-4 shadow-2xl border-4 animate-identifier border-orange-500 "
+          className="rounded-lg size-px-96 h-80 w-fit my-1 mb-4 shadow-2xl border-4 animate-identifier border-orange-500 "
           src={BannerIamge}
           alt="Picture"
         />

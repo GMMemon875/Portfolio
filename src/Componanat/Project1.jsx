@@ -5,7 +5,7 @@ const Project1 = () => {
   return (
     <>
       <div className=" " id="/Project">
-        <h1 className="text-center text-4xl font-bold underline italic mt-14 mb-14">
+        <h1 className="text-center text-4xl font-bold underline italic mt-8 ">
           PROJECT
         </h1>
       </div>
@@ -13,10 +13,12 @@ const Project1 = () => {
         {Project.map((data) => {
           return (
             <>
-              <div className="my-8 w-[calc(25.33%)] " key={data.id}>
+              <div className="my-8 w-[calc(25.33%)] m-5" key={data.id}>
                 <div
                   className="card border-1 rounded-md border-black shadow-[10px_10px_15px_15px_rgba(101,175,10,0.5)]"
-                  style={{ width: "23rem", height: "60vh" }}
+                  style={{ width: "18rem", height: "65vh", marginLeft: "30px" }}
+                  data-aos="zoom-in-left"
+                  data-aos-duration="2000"
                 >
                   <div className=" p-5 bg-slate-300 ">
                     <img

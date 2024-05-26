@@ -29,11 +29,19 @@ const Project = () => {
             {/* </div> */}
             {/* </div> */}
 
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white mt-4">
+            <h1
+              className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white mt-4"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               Contact Us
             </h1>
 
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p
+              className="lg:w-2/3 mx-auto leading-relaxed text-sm"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               Lets get in touch! If you have any questions or need to contact us
               for a project, please use the form below. We will respond as soon
               as If you have any questions or need to contact us for any reason,
@@ -49,6 +57,8 @@ const Project = () => {
                     aria-autocomplete="false"
                     aria-required
                     className="leading-7 text-sm text-gray-400"
+                    data-aos="fade-up-right"
+                    data-aos-duration="1000"
                   >
                     Name
                   </label>
@@ -67,6 +77,8 @@ const Project = () => {
                     aria-autocomplete=""
                     aria-required
                     className="leading-7 text-sm text-gray-400"
+                    data-aos="fade-up-left"
+                    data-aos-duration="1000"
                   >
                     Email
                   </label>
@@ -83,6 +95,8 @@ const Project = () => {
                   <label
                     for="message"
                     className="leading-7 text-sm text-gray-400"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
                   >
                     Message
                   </label>
@@ -94,7 +108,11 @@ const Project = () => {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto px-4 py-2 bg-orange-500 shadow rounded-full text-1xl text-decoration-none text-white  hover:bg-orange-400">
+                <button
+                  className="flex mx-auto px-4 py-2 bg-orange-500 shadow rounded-full text-sm w-36 text-center justify-center items-center text-decoration-none text-white  hover:bg-orange-400"
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                >
                   {" "}
                   Submit
                 </button>

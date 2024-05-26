@@ -6,7 +6,11 @@ const Experties = () => {
   return (
     <>
       <div className="mt-2">
-        <h1 className="text-center text-4xl font-bold underline pb-16 italic">
+        <h1
+          className="text-center text-4xl font-bold underline pb-16 italic"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
           {" "}
           My Experties
         </h1>
@@ -21,7 +25,11 @@ const Experties = () => {
       >
         <div className="flex py-10 items-center" id="/Experties">
           <div className="flex justify-center">
-            <div className=" text-slate-100 w-2/3 text-center">
+            <div
+              className=" text-slate-100 w-2/3 text-center"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <h1 className="text-3xl font-semibold text-white italic">
                 I love These Technologies{" "}
               </h1>
@@ -41,44 +49,97 @@ const Experties = () => {
           </div>
 
           <div className="flex justify-end">
-            <div className=" flex w-2/3 space-x-3 justify-center flex-wrap h-fit ">
-              <p className="bg-gray-300 w-fit px-3 mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+            <div className=" flex w-2/3 space-x-3 justify-center flex-wrap h-fit text-sm ">
+              <p
+                className="bg-gray-300 w-fit px-3 mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 HTML5:
               </p>
-              <p className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+              <p
+                className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
                 Tailwend CSS:
               </p>
-              <p className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+              <p
+                className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 JavaScript:
               </p>
-              <p className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+              <p
+                className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+              >
                 ReactJs:
               </p>
-              <p className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+              <p
+                className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 Node.js:
               </p>
-              <p className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+              <p
+                className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 Python:
               </p>
-              <p className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+              <p
+                className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 Express:
               </p>
-              <p className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+              <p
+                className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 MongoDb:
               </p>
-              <p className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full">
-                MongoDb:
-              </p>
-              <p className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+
+              <p
+                className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 BootStrip:
               </p>
-              <p className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full">
-                Ms Word:
+              {/* <p
+                className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                PHP:
               </p>
-              <p className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+              <p
+                className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
+                PHP:
+              </p> */}
+              <p
+                className="bg-gray-300 w-fit px-3  mt-1 hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-down-left"
+                data-aos-duration="1000"
+              >
                 BootStrip:
               </p>
-              <p className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full">
+              <p
+                className="bg-gray-300 w-fit px-3 mt-1  hover:bg-orange-500 cursor-pointer py-2 rounded-full"
+                data-aos="fade-down-right"
+                data-aos-duration="1000"
+              >
                 Ms Word:
               </p>
             </div>
