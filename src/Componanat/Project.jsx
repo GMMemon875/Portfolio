@@ -10,7 +10,11 @@ const Project = () => {
         id="/Contact"
       >
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-12">
+          <div
+            className="flex flex-col text-center w-full mb-12"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             {/* <div>  */}
             {/* <div classNameName='py-14'>  */}
             {/* <h1 classNameName='text-center text-4xl font-bold underline'> Contact Us </h1> */}
