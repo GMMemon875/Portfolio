@@ -29,8 +29,8 @@
 //   return (
 //     <>
 //       <div
-//         className="h-20 border main flex justify-between items-center px-16 bg-slate-200 "
-//         data-aos="fade-dow"
+//         className="h-20 border main  flex justify-between items-center px-16 bg-slate-200 "
+//         data-aos="fade-down"
 //         data-aos-duration="1000"
 //       >
 //         <div>
@@ -41,7 +41,7 @@
 //           {/* <Link to="/Project"  className='hover:text-orange-600'> Project</Link>  */}
 
 //           <ul>
-//             <li className="space-x-6 ">
+//             <li className="space-x-6">
 //               {manulink.map((manu) => (
 //                 <a
 //                   key={manu.id}
@@ -82,7 +82,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa"; // Importing icons
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
   const [islogo, setlogo] = useState("Mustafa ");
@@ -109,7 +109,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="h-20 border main flex justify-between items-center px-6 md:px-16 bg-slate-200">
+      <div className="h-20 border flex justify-between items-center px-6 md:px-16 bg-slate-300">
         <div>
           <h1 className="text-3xl font-bold text-orange-500 ">{islogo}</h1>
         </div>
