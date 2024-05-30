@@ -1,4 +1,4 @@
-// // import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import wallpapper from "../Image/new.jpeg";
 // import React from "react";
 
@@ -21,12 +21,12 @@
 //           backgroundImage: `url(${wallpapper})`,
 //           backgroundSize: "cover",
 //         }}
-//         className="  "
+//         className=""
 //       >
 //         <div className="flex py-10 items-center" id="/Experties">
-//           <div className="flex justify-center">
+//           <div className="flex justify-center  ">
 //             <div
-//               className=" text-slate-100 w-2/3 text-center"
+//               className=" text-slate-100 w-2/3 text-center "
 //               // data-aos="fade-right"
 //               // data-aos-duration="1000"
 //             >
@@ -161,7 +161,7 @@ const Experties = () => {
       <div className="mt-2">
         <h1
           className="text-center text-4xl font-bold underline pb-16 italic"
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-duration="1000"
         >
           My Experties
@@ -177,7 +177,7 @@ const Experties = () => {
         id="Experties"
       >
         <div></div>
-        <div className="flex flex-col lg:flex-row items-center ">
+        <div className="flex flex-col lg:flex-row items-center justify-between mr-24 ml-16 ">
           <div
             className="text-center text-slate-100 lg:w-4/3 px-4"
             data-aos="fade-right"
@@ -186,7 +186,7 @@ const Experties = () => {
             <h1 className="text-3xl font-semibold text-white italic">
               I love These Technologies
             </h1>
-            <p className="mt-4">
+            <p className="mt-4 w-80">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. In a
               voluptatum corporis alias modi incidunt adipisci quasi? Quos ipsa
               quasi tempore minima maxime!
@@ -200,7 +200,7 @@ const Experties = () => {
           </div>
           <div className="">
             <div
-              className="flex flex-wrap justify-center lg:w-1/1 mt-8 lg:mt-0"
+              className="flex flex-wrap justify-center lg:w-72 mt-8 lg:mt-0"
               data-aos="fade-up"
               data-aos-duration="1000"
             >

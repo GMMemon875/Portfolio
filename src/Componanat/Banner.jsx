@@ -146,10 +146,10 @@ const Banner = () => {
         backgroundImage: `url(${wallpaper})`,
         backgroundSize: "cover",
       }}
-      className="main-container flex flex-col md:flex-row items-center justify-center p-4 md:p-0"
+      className="main-container flex flex-col md:flex-row items-center justify-between p-4 md:p-0"
     >
       <div
-        className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center text-center md:text-left"
+        className="w-full md:w-1/3 ml-14  flex flex-col items-center md:items-start justify-center  md:text-left"
         id="Banner"
         data-aos="fade-right"
         data-aos-duration="1000"
@@ -217,7 +217,7 @@ const Banner = () => {
         data-aos-duration="1000"
       >
         <img
-          className="rounded-lg h-80 w-auto my-1 mb-4 shadow-2xl border-4 border-orange-500"
+          className="rounded-lg h-80 w-auto my-1 mb-4 shadow-2xl border-4 animate-identifier border-orange-500"
           src={BannerImage}
           alt="Picture"
         />

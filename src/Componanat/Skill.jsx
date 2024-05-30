@@ -15,8 +15,8 @@ const Skill = () => {
           return (
             <>
               <div
-                className=" item w-[calc(33.50%)] m-14 bg-black text-center border-5 border-yellow-400 shadow-[10px_10px_15px_15px_rgba(101,175,10,0.5)]"
-                data-aos="flip-left"
+                className=" item w-[calc(33.50%)] m-14 bg-black text-center border-5 animate-identifier border-yellow-400 shadow-[10px_10px_15px_15px_rgba(101,175,10,0.5)]"
+                data-aos="fade-down"
                 data-aos-duration="1000"
                 key={data.id}
               >
