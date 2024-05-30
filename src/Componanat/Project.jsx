@@ -7,7 +7,6 @@ const Project = () => {
         action="https://formspree.io/f/xkndzvro"
         method="Post"
         className="text-gray-400 bg-gray-900 body-font relative"
-        id="/Contact"
       >
         <div className="container px-5 py-24 mx-auto">
           <div
@@ -116,6 +115,7 @@ const Project = () => {
                   className="flex mx-auto px-4 py-2 bg-orange-500 shadow rounded-full text-sm w-36 text-center justify-center items-center text-decoration-none text-white  hover:bg-orange-400"
                   data-aos="fade-down"
                   data-aos-duration="1000"
+                  id="/Contact"
                 >
                   {" "}
                   Submit

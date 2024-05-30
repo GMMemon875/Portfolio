@@ -5,7 +5,10 @@ const Project1 = () => {
   return (
     <>
       <div id="Project">
-        <h1 className="text-center text-4xl font-bold underline italic mt-8">
+        <h1
+          className="text-center text-4xl font-bold underline italic mt-8"
+          id="/Project"
+        >
           PROJECT
         </h1>
       </div>

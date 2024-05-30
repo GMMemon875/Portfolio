@@ -5,7 +5,11 @@ const Skill = () => {
   return (
     <>
       <div className=" " id="/Skill">
-        <h1 className="text-center text-4xl font-bold underline italic mb-14">
+        <h1
+          className="text-center text-4xl font-bold underline italic mb-14"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           Skills
         </h1>
       </div>
