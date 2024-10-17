@@ -36,7 +36,8 @@ const Project1 = () => {
                 <p className="card-text mt-2 text-sm">{data.Description}</p>
                 <div className="flex">
                   <a
-                    href={data.link}
+                    href={data.URL}
+                    target="blank"
                     className=" bg-orange-600 text-white cursor-pointer text-decoration-none m-2 mt-4 py-2 px-4 rounded-md"
                   >
                     Demo
