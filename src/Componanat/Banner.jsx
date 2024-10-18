@@ -28,10 +28,10 @@ const Banner = () => {
         backgroundImage: `url(${wallpaper})`,
         backgroundSize: "cover",
       }}
-      className="main-container flex flex-col md:flex-row items-center justify-between p-4 md:p-0"
+      className="main-container flex flex-col md:flex-row items-center justify-between p-4 md:p-0 overflow-x-hidden"
     >
       <div
-        className="w-full md:w-1/3 ml-14  flex flex-col items-center md:items-start justify-center  md:text-left"
+        className="w-full md:w-1/3 ml-14  flex flex-col items-center md:items-start justify-center md:text-left"
         id="Banner"
         data-aos="fade-right"
         data-aos-duration="1000"

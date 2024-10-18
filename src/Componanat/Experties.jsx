@@ -4,7 +4,7 @@ import wallpapper from "../Image/new.jpeg";
 const Experties = () => {
   return (
     <>
-      <div className="mt-2">
+      <div className="mt-2 md:w-full">
         <h1
           className="text-center text-4xl font-bold underline pb-16 italic"
           data-aos="fade-down"
