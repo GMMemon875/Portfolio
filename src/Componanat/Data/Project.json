@@ -30,23 +30,23 @@
     "title": "Text To Speech Converter",
     "imagesrc": "./Project/29.05.2024_19.17.38_REC.png",
     "Description": "A simple Text to Speech Converter Using HTML CSS Javasript .",
-
+    "URL": "https://text-convert-speech.vercel.app/",
     "source": "https://github.com/GMMemon875/Text_convert_Speech.git"
   },
   {
     "key": 5,
     "title": "NetFlix Clone",
     "imagesrc": "./Project/29.05.2024_19.04.44_REC.png",
-    "Description": "(YoungDev Intern Project)  Youngdev Intern Task to build a Netflix Clone Using HTML CSS JavaScript ",
-
-    "source": ""
+    "Description": "(YoungDev Intern Project)  Youngdev Intern Task to build a Netflix Clone Using only HTML CSS leading page ",
+    "URL": "https://netflix-clone-gamma-tan.vercel.app/",
+    "source": "https://github.com/GMMemon875/Netflix_clone"
   },
   {
     "key": 6,
     "title": "New Web APP",
     "imagesrc": "./Project/Home Page.png",
     "Description": "A news website that fetches real-time top headlines category wise we can fetches technology sports general news.",
-
+    "URL": "https://news-app-five-psi-96.vercel.app/",
     "source": "https://github.com/GMMemon875/News_APP.git"
   },
   {
