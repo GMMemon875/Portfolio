@@ -9,7 +9,11 @@ const Banner = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Frontend Developer", "React Developer", "Next.js Developer"],
+      strings: [
+        "Frontend Developer",
+        "React Developer",
+        "MERN Stack Developer",
+      ],
       startDelay: 100,
       typeSpeed: 50,
       backSpeed: 10,

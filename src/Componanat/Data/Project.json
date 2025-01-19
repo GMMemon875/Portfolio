@@ -4,7 +4,8 @@
     "title": "Counter App",
     "imagesrc": "./Project/29.05.2024_18.59.58_REC.png",
     "Description": " (Codexcue Internship Task) Counter App A basic app that increments, decrements, or resets a counter. Simple state management. ",
-    "source": "https://github.com/GMMemon875/Counter_App_Codex.cu_ternShip_Project.git"
+    "source": "https://github.com/GMMemon875/Counter_App_Codex.cu_ternShip_Project.git",
+    "URL": "https://counter-app-codex-cu-tern-ship-project.vercel.app/"
   },
   {
     "key": 2,
