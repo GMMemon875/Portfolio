@@ -3,9 +3,14 @@ import BannerImage from "../Image/selfiecamera_2020-08-23-22-47-01-558.jpg";
 import wallpaper from "../Image/new.jpeg";
 import Typed from "typed.js";
 import { Link } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Banner = () => {
   const el = useRef(null);
+  const phoneNumber = "923113872155";
+  const message = encodeURIComponent(
+    "Hello Mustafa! Tell me something about you."
+  );
 
   useEffect(() => {
     const typed = new Typed(el.current, {
@@ -108,6 +113,14 @@ const Banner = () => {
           alt="Picture"
         />
       </div>
+      <a
+        href={`https://wa.me/${phoneNumber}?text=${message}`}
+        className="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 flex items-center justify-center rounded-full shadow-lg hover:bg-green-600 hover:scale-110 transition-transform z-[9999]"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp className="text-3xl" />
+      </a>
     </div>
   );
 };
